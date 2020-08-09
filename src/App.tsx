@@ -7,13 +7,13 @@ function App() {
   return (
     <div className='App'>
       <main className='flexbox'>
-        <Board id='board-1' classNames='board'>
-          <Card id='card-1' classNames='card' draggable='true'>
+        <Board id='board-1' className='board'>
+          <Card id='card-1' className='card' draggable='true'>
             <p>Card One</p>
           </Card>
         </Board>
-        <Board id='board-2' classNames='board'>
-          <Card id='card-2' classNames='card' draggable='true'>
+        <Board id='board-2' className='board'>
+          <Card id='card-2' className='card' draggable='true'>
             <p>Card One</p>
           </Card>
         </Board>
